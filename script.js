@@ -49,7 +49,8 @@ function generatePassword(){
   for(let i = 0; i < length; i ++){
     possibleChar.push(randomUpper())
     possibleChar.push(randomLower()) 
-
+    possibleChar.push(randomNumber())
+    possibleChar.push(randomSymbol())
   }
 
   console.log(possibleChar)
